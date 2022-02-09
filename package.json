@@ -1,0 +1,16 @@
+{
+  "name": "jest-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/karlaguerreiro/jest-node.git",
+  "author": "Karla Guerreiro <karlaguerreiro96@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.3",
+    "sequelize": "^6.16.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}
