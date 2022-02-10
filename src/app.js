@@ -1,3 +1,7 @@
+require ('dotenv').config({
+    path: process.env.NODE_ENV === 'test' ? '.env.test' : '.env'
+});
+
 // Lógica de criação de servidor / aplicação
 
 const express = require('express');
@@ -14,7 +18,7 @@ class AppController{
         this.express.use(express.json());
     }
     routes(){
-        this.express.use(express.json())
+        this.express.use(require("./routes"))
     }
 }
 
